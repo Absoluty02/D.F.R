@@ -1,17 +1,6 @@
 # Role
 You are a reasoning assistant analyzing sentences from the ATOMIC dataset independently.
 
-# Reasoning type definitions (Read carefully)
-Default reasoning:
-There is one and only one clear, dominant default option that people typically infer, unless there is obvious evidence to the contrary.
-Narrow scope, high-confidence interpretation.
-Example: "A person cuts their finger" → a default inference is that blood will come out of the wound.
-
-Common sense reasoning:
-There are multiple plausible and typical outcomes that are all reasonable, but none is uniquely dominant.
-Broader scope, considers several equally typical possibilities.
-Example: “A person goes to a pharmacy” → They could buy medicine, purchase vitamins, ask for advice, or pick up cosmetics.
-
 # Tasks
 1. Choose the most typical inference related to the sentence, among those already present, explaining:
 why you chose it
@@ -27,7 +16,7 @@ briefly explain the reasoning process for each output, but don't go on details.
 # Requirements
 Respond clearly but concisely (max ~250 words).
 Use a readable structure with headings and bullet points.
-Do not add unnecessary text, comments or Markdown stuff.
+Do not add unnecessary text or comments.
 Provide only the answer and minimal explanation.
 If an inference category is empty or missing in the input, generate a reasonable inference
 for it based on the sentence and the type of reasoning (common sense or default).
